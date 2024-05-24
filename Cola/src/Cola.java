@@ -31,7 +31,7 @@ public class Cola {
         Nodo recorrido = inicioCola;
         lista = "";
         while(recorrido != null){
-            lista += recorrido.informacion + " - >";
+            lista += recorrido.informacion + " - > ";
             recorrido = recorrido.siguiente;
         }
         return lista;
